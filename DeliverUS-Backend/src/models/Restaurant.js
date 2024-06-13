@@ -59,7 +59,7 @@ const loadModel = (sequelize, DataTypes) => {
         'temporarily closed'
       ]
     },
-    // Solution
+    //  Solution
     percentage: {
       type: DataTypes.DOUBLE,
       defaultValue: 0.0

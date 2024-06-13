@@ -73,7 +73,7 @@ const show = async function (req, res) {
 
 const update = async function (req, res) {
   try {
-    // Solution: not explicitly requested, but the use of a transaction is valued
+    //  Solution: not explicitly requested, but the use of a transaction is valued
     const transaction = await sequelizeSession.transaction()
     await Restaurant.update(req.body, { where: { id: req.params.restaurantId } }, transaction)
 

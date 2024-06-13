@@ -39,7 +39,7 @@ const show = async function (req, res) {
 const create = async function (req, res) {
   let newProduct = Product.build(req.body)
   try {
-    // Solution: basePrice updated from price property (given in the student's base project)
+    //  Solution: basePrice updated from price property (given in the student's base project)
     newProduct.basePrice = newProduct.price
     newProduct = await newProduct.save()
     res.json(newProduct)

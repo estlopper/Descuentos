@@ -44,7 +44,7 @@ export default function RestaurantsScreen({ navigation, route }) {
         </View>
 
         {
-          // Solution
+          //  Solution
         }
         {item.percentage != 0 && <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }} >
           <TextSemiBold textStyle={{ color: item.percentage > 0 ? 'red' : 'green' }}>{item.percentage > 0 ? '¡Incremento de precios aplicados!' : '¡Descuentos aplicados!'}</TextSemiBold>

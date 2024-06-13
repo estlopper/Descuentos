@@ -19,7 +19,7 @@ function create(data) {
 function update(id, data) {
   return put(`restaurants/${id}`, data)
 }
-
+ 
 function remove(id) {
   return destroy(`restaurants/${id}`)
 }

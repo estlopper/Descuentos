@@ -56,7 +56,7 @@ module.exports = {
         ],
         defaultValue: 'offline'
       },
-      // Solution
+      //  Solution
       percentage: {
         type: Sequelize.DOUBLE,
         defaultValue: 0.0

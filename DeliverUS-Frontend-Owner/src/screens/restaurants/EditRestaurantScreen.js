@@ -15,7 +15,7 @@ import TextError from '../../components/TextError'
 import { prepareEntityImages } from '../../api/helpers/FileUploadHelper'
 import { buildInitialValues } from '../Helper'
 
-// Solution
+//  Solution
 import ConfirmationModal from '../../components/ConfirmationModal'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 import TextSemiBold from '../../components/TextSemibold'
